@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .detail-form .ant-form-item {
+    @apply justify-center
+  }
+}
+
+@screen lg {
+  .login-form p {
+    @apply text-left !important;
+  }
+}
